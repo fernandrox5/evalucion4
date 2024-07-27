@@ -1,0 +1,44 @@
+/* Asegúrate de que el contenedor principal ocupe toda la altura de la pantalla */
+.app-container {
+  min-height: 100vh;
+}
+
+/* Centrar el contenido vertical y horizontalmente */
+.d-flex {
+  display: flex !important;
+}
+
+.flex-column {
+  flex-direction: column !important;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.justify-content-center {
+  justify-content: center !important;
+}
+
+/* Espaciado entre los elementos de la tabla de usuarios */
+.user-table tbody tr {
+  margin-bottom: 15px; /* Ajusta este valor según sea necesario */
+}
+
+/* Definir la fuente Aptos Narrow */
+@font-face {
+  font-family: 'Aptos Narrow';
+  src: url('./fonts/AptosNarrow-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Aptos Narrow';
+  src: url('./fonts/AptosNarrow-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+/* Aplicar la fuente Aptos Narrow a toda la aplicación */
+body {
+  font-family: 'Aptos Narrow', sans-serif;
+}
